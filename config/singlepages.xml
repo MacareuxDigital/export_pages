@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <singlepages>
+        <page name="Export Pages" path="/dashboard/pages/export_pages"
+              filename="/dashboard/pages/export_pages.php" pagetype="" description=""
+              package="export_pages"></page>
+    </singlepages>
+</concrete5-cif>
