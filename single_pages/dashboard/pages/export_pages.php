@@ -4,10 +4,10 @@ defined('C5_EXECUTE') or die('Access Denied.');
 /** @var \Concrete\Core\Validation\CSRF\Token $token */
 /** @var \Concrete\Core\Form\Service\Form $form */
 /** @var array $sites */
-$sites = $sites ?? [];
+$sites = isset($sites) ? $sites : [];
 /** @var array $trees */
-$trees = $trees ?? [];
-$siteID = $siteID ?? null;
+$trees = isset($trees) ? $trees : [];
+$siteID = isset($siteID) ? $siteID : null;
 
 if ($sites) {
     ?>

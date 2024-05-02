@@ -5,7 +5,7 @@ use Concrete\Core\Package\Package;
 
 class Controller extends Package
 {
-    protected $appVersionRequired = '9.0.0';
+    protected $appVersionRequired = '8.5.0';
     protected $pkgHandle = 'export_pages';
     protected $pkgVersion = '1.0.0';
     protected $pkgAutoloaderRegistries = [

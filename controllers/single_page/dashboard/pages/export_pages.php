@@ -15,7 +15,6 @@ class ExportPages extends DashboardPageController
         /** @var Service $service */
         $service = $this->app->make(Service::class);
         $sites = [];
-        /** @var \Concrete\Core\Entity\Site\Site $site */
         foreach ($service->getList() as $site) {
             $sites[$site->getSiteID()] = $site->getSiteName();
         }
