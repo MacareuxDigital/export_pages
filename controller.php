@@ -5,9 +5,9 @@ use Concrete\Core\Package\Package;
 
 class Controller extends Package
 {
-    protected $appVersionRequired = '8.5.1';
+    protected $appVersionRequired = '9.0.0';
     protected $pkgHandle = 'export_pages';
-    protected $pkgVersion = '0.0.1';
+    protected $pkgVersion = '1.0.0';
     protected $pkgAutoloaderRegistries = [
         'src' => '\Concrete5cojp\ExportPages',
     ];
