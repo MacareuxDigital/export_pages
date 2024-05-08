@@ -43,7 +43,7 @@ class ExportPages extends DashboardPageController
         $trees = [];
         $locales = $site->getLocales();
         foreach ($locales as $locale) {
-            $trees[$locale->getSiteTreeID()] = $locale->getLanguageText();
+            $trees[$locale->getSiteTreeID()] = $locale->getLanguageText() . ' (' . $locale->getCountry() . ')';
         }
         $this->set('trees', $trees);
         $this->set('siteID', $siteID);
